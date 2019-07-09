@@ -1,0 +1,335 @@
+body {
+  background-color: #ebecf3;
+  font-family: Roboto, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h2 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 0px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.grid-label-1 {
+  grid-area: grid-label-1;
+}
+
+.grid-label-2 {
+  grid-area: grid-label-2;
+}
+
+.grid-label-3 {
+  grid-area: grid-label-3;
+}
+
+.grid-label-4 {
+  grid-area: grid-label-4;
+}
+
+.grid-label-5 {
+  grid-area: grid-label-5;
+}
+
+.grid-label-6 {
+  grid-area: grid-label-6;
+}
+
+.grid-label-7 {
+  grid-area: grid-label-7;
+}
+
+.big-block-1 {
+  grid-area: big-block-1;
+}
+
+.big-block-2 {
+  grid-area: big-block-2;
+}
+
+.big-block-3 {
+  grid-area: big-block-3;
+}
+
+.grid-block-1 {
+  grid-area: grid-block-1;
+}
+
+.grid-block-2 {
+  grid-area: grid-block-2;
+}
+
+.grid-block-3 {
+  grid-area: grid-block-3;
+}
+
+.grid-block-4 {
+  grid-area: grid-block-4;
+}
+
+.grid-block-5 {
+  grid-area: grid-block-5;
+}
+
+.grid-block-6 {
+  grid-area: grid-block-6;
+}
+
+.grid-block-7 {
+  grid-area: grid-block-7;
+}
+
+.grid-block-8 {
+  grid-area: grid-block-8;
+}
+
+.grid-block-9 {
+  grid-area: grid-block-9;
+}
+
+.grid-block-10 {
+  grid-area: grid-block-10;
+}
+
+.grid-block-11 {
+  grid-area: grid-block-11;
+}
+
+.grid-block-12 {
+  grid-area: grid-block-12;
+}
+
+.grid-block-13 {
+  grid-area: grid-block-13;
+}
+
+.grid-block-14 {
+  grid-area: grid-block-14;
+}
+
+.grid-block-15 {
+  grid-area: grid-block-15;
+}
+
+.grid-block-16 {
+  grid-area: grid-block-16;
+}
+
+.grid-block-17 {
+  grid-area: grid-block-17;
+}
+
+.grid-block-18 {
+  grid-area: grid-block-18;
+}
+
+.grid-block-19 {
+  grid-area: grid-block-19;
+}
+
+.grid-block-20 {
+  grid-area: grid-block-20;
+}
+
+.grid-block-21 {
+  grid-area: grid-block-21;
+}
+
+@media(max-width: 768px){
+.grid{
+  display: grid;
+  grid-template-rows: 200px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "big-block-1 big-block-2 big-block-3"
+  "grid-label-1 grid-label-1 grid-label-1"
+  "grid-block-1 grid-block-8 grid-block-15"
+  "grid-label-2 grid-label-2 grid-label-2"
+  "grid-block-2 grid-block-9 grid-block-16"
+  "grid-label-3 grid-label-3 grid-label-3"
+  "grid-block-3 grid-block-10 grid-block-17"
+  "grid-label-4 grid-label-4 grid-label-4"
+  "grid-block-4 grid-block-11 grid-block-18"
+  "grid-label-5 grid-label-5 grid-label-5"
+  "grid-block-5 grid-block-12 grid-block-19"
+  "grid-label-6 grid-label-6 grid-label-6"
+  "grid-block-6 grid-block-13 grid-block-20"
+  "grid-label-7 grid-label-7 grid-label-7"
+  "grid-block-7 grid-block-14 grid-block-21";
+}
+
+.product-image{
+  width: 100px;
+}
+
+.grid-label{
+  border-bottom: solid 1px black;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.stars{
+  width: 100px;
+}
+
+.grid-block{
+  text-align: center;
+}
+
+.big-block{
+  text-align: center;
+}
+}
+
+@media(min-width: 768px){
+  .grid{
+    display: grid;
+    grid-template-rows: 170px 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto 1fr 1fr 1fr;
+    grid-template-areas: 
+    "white-background big-block-1 big-block-2 big-block-3"
+    "grid-label-1 grid-block-1 grid-block-8 grid-block-15"
+    "grid-label-2 grid-block-2 grid-block-9 grid-block-16"
+    "grid-label-3 grid-block-3 grid-block-10 grid-block-17"
+    "grid-label-4 grid-block-4 grid-block-11 grid-block-18"
+    "grid-label-5 grid-block-5 grid-block-12 grid-block-19"
+    "grid-label-6 grid-block-6 grid-block-13 grid-block-20"
+    "grid-label-7 grid-block-7 grid-block-14 grid-block-21";
+  }
+
+  .product-image{
+    width: 100px
+  }
+
+  .grid-block{
+    border-top: solid 1px black;
+    text-align: center;
+  }
+
+  .grid-label{
+    border-top: solid 1px black;
+  }
+
+  .big-block{
+    text-align: center;
+  }
+
+  .stars{
+  width: 100px;
+  }
+
+  .big-block{
+    background-color: white;
+  }
+
+  .grid-block{
+    background-color: white;
+  }
+
+  .big-block-2{
+    background-color: #4169E1;
+    margin-top: -10px;
+  }
+
+  .grid-block-8, .grid-block-9, .grid-block-10, .grid-block-11, .grid-block-12, .grid-block-13, .grid-block-14{
+    background-color: #4169E1;
+    margin-bottom: -10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .grid {
+  display: grid;
+  grid-template-rows: 270px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  justify-content: center;
+  grid-template-areas:
+  "big-block-1 big-block-2 big-block-3" 
+  "grid-label-1 grid-label-1 grid-label-1" 
+  "grid-block-1 grid-block-8 grid-block-15"
+  "grid-label-2 grid-label-2 grid-label-2" 
+  "grid-block-2 grid-block-9 grid-block-16"
+  "grid-label-3 grid-label-3 grid-label-3"
+  "grid-block-3 grid-block-10 grid-block-17"
+  "grid-label-4 grid-label-4 grid-label-4"
+  "grid-block-4 grid-block-11 grid-block-18"
+  "grid-label-5 grid-label-5 grid-label-5"
+  "grid-block-5 grid-block-12 grid-block-19"
+  "grid-label-6 grid-label-6 grid-label-6"
+  "grid-block-6 grid-block-13 grid-block-20"
+  "grid-label-7 grid-label-7 grid-label-7"
+  "grid-block-7 grid-block-14 grid-block-21";
+  }
+
+  .big-block-2 {
+  margin-top: 0;
+  padding-top: 0;
+  }
+
+  .grid-block-14, .grid-block-13, .grid-block-12, .grid-block-11, .grid-block-10, .grid-block-9, .grid-block-8, .big-block-2{
+  margin-bottom: 0;
+  background-color: white;
+  }
+
+  .blue {
+  background-color: white;
+}
+
+  h2, h3 { 
+    color: black;
+  }
+
+  .big-block {
+  text-align: left;
+  }
+  .grid-block {
+    text-align: left;
+  }
+
+  .padding-grid {
+    padding-left: 20px;
+  }
+
+  .border-none {
+    border: none;
+  }
+
+  .grid-label {
+    padding-top: 20px;
+  }
+
+  .stars {
+    padding-top: 20px;
+  }
+}
